@@ -4,7 +4,8 @@ public class SortArrayInAscendingOrder {
 
 	public static void main(String[] args) {
 
-		int [] ar = { 10,50,30,40,20};
+		//int [] ar = { 10,50,30,40,20};
+		int [] ar = {0,1,0,3,5,0};
 
 		for (int i = 0; i < ar.length; i++) {
 			for (int j = i+1; j < ar.length; j++) {
